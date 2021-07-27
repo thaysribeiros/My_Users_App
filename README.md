@@ -43,3 +43,6 @@ To test with curl requests
    user needs to be signed in (POST on /sign_in)
 
     curl -b cookies.txt -X DELETE localhost:8080/users 
+
+# Views
+    The erb/html file displays a table containing all the users in the database and their information: first name, last name, age, and email.
